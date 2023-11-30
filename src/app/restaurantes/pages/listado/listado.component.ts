@@ -16,8 +16,6 @@ export class ListadoComponent {
       {
         this.restaurantes=resp;
       });
-    //this.heroesService.getHeroes().subscribe(resp => console.log(resp));
-    //this.heroesService.getHeroes().subscribe(console.log); //es lo mismo
     }
 
 

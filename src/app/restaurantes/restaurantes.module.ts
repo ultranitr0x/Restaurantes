@@ -9,6 +9,7 @@ import { RestaurantesRoutingModule } from './restaurantes-routing.module';
 import { MaterialModule } from '../material/material.module';
 import { RestauranteTarjetaComponent } from './components/restaurante-tarjeta/restaurante-tarjeta.component';
 import { ImagenPipe } from './pipes/imagen.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -25,6 +26,7 @@ import { ImagenPipe } from './pipes/imagen.pipe';
   imports: [
     CommonModule,
     RestaurantesRoutingModule,
+    FormsModule,
     MaterialModule
   ]
 })
